@@ -6,13 +6,15 @@ authors = ["Arnav Patil <arnavpatil455@gmail.com>"]
 license = "2"
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "^3.10"
+
 
 [tool.poetry.dependencies]
 flask = "^2.0"
 flask-mail = "^0.9.1"
+python = "^3.10"
 
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+
